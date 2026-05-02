@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEX</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #container {
+        height: 500px;
+        width: 762px;
+        background-color: rgb(156, 189, 217);
+        border: 2px black ; border-style: solid;
+        display: flex;
+        flex-direction: row;   justify-content: center;
+      }
+      .box {
+        height: 100px;
+        width: 100px;
+        border: 2px black dotted;
+        margin: 5px;
+      
+        
+      }
+      #box1 {
+        background-color: rebeccapurple;
+      }
+      #box2 {
+        background-color: green;
+      }
+      #box3 {
+        background-color: violet;
+      }
+      #box4 {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">Flex container</h1>
+    <div id="container">
+      <div id="box1" class="box">flex item 1</div>
+      <div id="box2" class="box">flex item 2</div>
+      <div id="box3" class="box">flex item 3</div>
+      <div id="box4" class="box">flex item 4</div>
+    </div>
+  </body>
+</html>
