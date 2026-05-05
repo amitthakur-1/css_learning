@@ -1,0 +1,40 @@
+*{
+    margin: 0; padding: 0;
+}
+
+nav a{
+text-decoration: none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;padding-top: 10px;
+}
+header{
+    background-color: bisque;
+}
+img{
+    height: 100px;
+    
+}
+#image{
+    border: 3px solid black;
+    height: 150px; display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.new{
+    border: 2px solid black;
+    display:flex;
+    
+}
+#box2{
+    height: 150px;width: 150px; border: 2px solid black;
+}
+#box3{
+    height: 150px;width: 150px; border: 2px solid black;
+}#box4{
+    height: 150px;width: 150px; border: 2px solid black;
+}
